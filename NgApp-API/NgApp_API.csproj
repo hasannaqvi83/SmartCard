@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>NgApp_API</RootNamespace>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <AssemblyName>NgApp_API</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.2" />
+  </ItemGroup>
+
+</Project>
